@@ -10,7 +10,7 @@ articles = Blueprint('articles',__name__)
 @articles.route('/api/articles/get',methods=['POST'])
 def get_article():
     data = {
-        "content":"Srticle content"
+        "content":"Article content"
     }
 
     return data
