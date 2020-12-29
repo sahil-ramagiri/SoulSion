@@ -1,0 +1,16 @@
+[
+    {
+        "id":"1",
+        "name":"Meditate",
+        "icon":"icons/meditate.svg",
+        "href":"/meditate",
+        "title":"Ease yourself by taking a short meditation session"
+    },
+    {
+        "id":"2",
+        "name":"Counselling",
+        "icon":"icons/chat.svg",
+        "href":"/chat",
+        "title":"Want a counselling session?"
+    }
+]

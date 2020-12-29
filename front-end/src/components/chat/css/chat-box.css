@@ -1,0 +1,47 @@
+.chat-box .text{
+    display:block;
+    width:70%;
+    margin-bottom:14px;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 1.2em;
+    border:1px  solid transparent #dedede;
+    margin-top: 4px;
+    overflow-wrap: break-word;
+}
+
+.chat-box .text{
+    clear: both;
+}
+
+.chat-box.sender .text{
+    background-color:#dedede;   
+    margin-left: 4px;
+    float: left;
+}
+
+.chat-box.receiver .text{
+    background-color:#F4FFEF;
+    margin-right: 4px;
+    float: right;
+    text-align: right;
+}
+
+
+.chat-box .avator{
+    border-radius: 50%;
+    max-width: 30px;
+    display: block;
+    position: relative;
+    background-color: white;
+}
+
+.chat-box.sender .avator{
+    float: left;
+    clear: right;
+}
+
+.chat-box.receiver .avator{
+    float: right;
+    clear: left;
+}
