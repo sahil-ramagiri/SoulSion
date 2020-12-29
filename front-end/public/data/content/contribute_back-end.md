@@ -18,10 +18,33 @@ We use ```python3``` or higher for the backend development.
 
 ****
 
-* use ```CapitalizedCamelCase``` for class and function definitions
-* use ```camelCase``` for variables
+* use ```CapitalizedCamelCase``` for class definitions
+* use small letter(a-z) ,underscore ('_') and digits(0-9) for function definition, variables, file names and directories (ie, ```[a-z0-9_]```)
+* local import should be made after the standard imports, with a newline character separaing the two
+* all the imports must be in alphabetical order (increasing)
+* import the modules separately (each in a new line)
+* use braces '()' for multiple imports from same modules
 
+```
+eg:
 
+handle_io.py:   #[a-z0-9_] for file/directory names
+-------------
+#standard imports first 
+from Flask import ( #use braces for multiple imports
+    Blueprint,      # 'b' first then 'r'
+    requests
+)
+import pprint
+
+from soulsion_api.articles.routes import article #local imports
+
+def print_stdout(): #[a-z0-9_] for function definition
+    pass
+
+class SayHello: #CapitalizedCamelCase for class definition
+    pass
+```
 <br/><br/>
 
 ## Testing
