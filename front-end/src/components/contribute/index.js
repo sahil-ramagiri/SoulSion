@@ -663,6 +663,17 @@ class Contribute extends React.Component{
                     <Footer/>
                 </div>
             );
+        }else if(route.indexOf("setup")!==-1){
+            return(
+                <div>
+                    <Header/>
+                    <div style={markdownStyle} id="main">
+                        <MarkdownContent filePath="data/content/contribute-setup.md" allowDangerousHtml/>
+                        <Message/>
+                    </div>
+                    <Footer/>
+                </div>
+            );
         }
         this.state["hello"] = true;
         if(route.indexOf("front-end")!==-1){
