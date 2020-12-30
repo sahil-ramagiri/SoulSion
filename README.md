@@ -14,6 +14,9 @@ Please go through [this link](https://www.soulsion.com/contribute) before making
 * contribute
 * create pull request
 
+## Setting up
+You can follow [this instruction](https://www.soulsion.com/contribute-setup) to setup up your development environment
+
 ## Community
 Join our [slack channel](https://join.slack.com/t/newworkspace-0vc3231/shared_invite/zt-kbpbgik6-HDxMwdHS_LxWYimZn6VPlw)
 

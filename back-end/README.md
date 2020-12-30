@@ -3,22 +3,11 @@
 ## Coding style
 Please go through [this link](https://www.soulsion.com/?route=contribute_back-end)
 
-## Getting Started
+## Setting up
+You can follow [this instruction](https://www.soulsion.com/contribute-setup) to setup up your development environment
 
-1. Fork this repo
-2. clone the repo you forked
-    ```
-    git clone git@github.com:your_username/SoulSion.git
-    ```
-3. make your own branch
-4. Change directory to back-end
-    ```
-    cd SoulSion/back-end/src
-    ```
-5. Install dependencies
-    ```
-    pip3 install -r requirements.txt
-    ```
-6. Code
-7. Test
-8. Create a pull request
+* After you have your development environment setup, search for issues with tag ```back-end```
+* If you think you can work on that issue, comment in the issue, then we will assign you the issue
+* Code
+* Test
+* create a pull request
