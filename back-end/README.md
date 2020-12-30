@@ -13,7 +13,7 @@ Please go through [this link](https://www.soulsion.com/?route=contribute_back-en
 3. make your own branch
 4. Change directory to back-end
     ```
-    cd SoulSion/back-end
+    cd SoulSion/back-end/src
     ```
 5. Install dependencies
     ```
