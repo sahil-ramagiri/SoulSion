@@ -224,7 +224,7 @@ function searchQuery(message){
             console.log("Best index",bestReplyIndex);
             const bestReply = items[bestReplyIndex];
             const reply = bestReply.snippet;
-            const source = bestReply.formattedUrl;
+            const source = bestReply.link;
             displayChatReceived(reply);
             let link = document.createElement('a');
             link.href = source;
