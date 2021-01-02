@@ -278,6 +278,7 @@ html,body {
     color: #FFF0C8;
     font-weight: 700;
     font-size: 30px;
+    border-left: none;
     font-family: serif;
     letter-spacing: 0.09em;
     transition: font-size 0.6s ease-in-out;
