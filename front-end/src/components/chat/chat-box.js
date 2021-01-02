@@ -233,6 +233,8 @@ function searchQuery(message){
             let lastTextElement = synchronizer_chat.lastReceiverElement.querySelector('.text');
             lastTextElement.innerHTML += "<br/>";
             lastTextElement.appendChild(link);
+            synchronizer_chat.chatBox.scrollTo(0,synchronizer_chat.chatBox.scrollHeight);
+
         }
     } ,(error) => {
         displayChatReceived(error);
